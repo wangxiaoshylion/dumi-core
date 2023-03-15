@@ -1,7 +1,7 @@
 {
-  "name": "@firesson/wx",
-  "version": "1.0.1",
-  "description": "@firesson/wx",
+  "name": "@wxshycat/wx",
+  "version": "1.0.0",
+  "description": "@wxshycat/wx",
   "module": "es/index.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
