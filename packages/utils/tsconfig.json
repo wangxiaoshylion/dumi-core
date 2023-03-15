@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      // "@@/*": [".dumi/tmp/*"],
+      // "@firesoon/pro-components": ["./packages/components/src/index.tsx"],
+      // "@firesoon/pro-layout": ["./packages/layout/src/index.tsx"],
+      // "@firesoon/pro-form": ["./packages/form/src/index.tsx"]
+    }
+  },
+  "allowSyntheticDefaultImports": true,
+  "noImplicitAny": false,
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "include": [
+    ".dumi/**/*",
+    ".dumirc.ts",
+    "tests",
+    "**/src/**/*",
+    "**/docs/**/*",
+    "scripts/**/*",
+    "typings.d.ts",
+    "jest.config.js",
+    "**/demos",
+    ".eslintrc.js",
+    ".stylelintrc.js"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "@wxshylion/pkg1",
+  "version": "1.0.0",
+  "description": "",
+  "module": "es/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist",
+    "es"
+  ],
+  "scripts": {
+    "build": "father build"
+  },
+  "type": "module",
+  "author": "wangxiaoshylion@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@wxshylion/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "babel-cli": "^6.26.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "@wxshylion/utils",
+  "version": "1.0.0",
+  "description": "@wxshylion/utils",
+  "module": "es/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist",
+    "es"
+  ],
+  "scripts": {
+    "build": "father build"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "wangxiaoshylion@gmail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 10"
+  ]
+}
