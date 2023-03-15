@@ -1,20 +1,9 @@
 {
-  "name": "dumi-core",
-  "version": "0.0.1",
-  "description": "A static site based on dumi",
   "scripts": {
-    "bootstrap": "node ./scripts/bootstrap.js",
-    "change": "node ./scripts/change.js",
-    "release": "node ./scripts/release.js",
     "start": "pnpm run dev",
     "dev": "dumi dev",
     "build": "pnpm --filter=@wxshylion/* run build",
-    "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
-    "prepare": "husky install && dumi setup",
-    "preinstall": "npx only-allow pnpm",
-    "lint": "pnpm run lint:es && pnpm run lint:css",
-    "lint:css": "stylelint \"packages/**/src/*.{css,less}\"",
-    "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\""
+    "changeset": "changeset"
   },
   "authors": [
     "wangxiaoshylion@gmail.com"
@@ -48,13 +37,13 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@testing-library/jest-dom": "^5.16.5",
-    "@types/testing-library__jest-dom": "^5.14.5",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13",
     "@types/jest": "^29.4.0",
     "@types/lodash": "^4.14.191",
     "@types/react": "^16.14.2",
     "@types/react-dom": "^18.0.10",
+    "@types/testing-library__jest-dom": "^5.14.5",
     "@umijs/lint": "^4.0.0",
     "@umijs/utils": "^4.0.47",
     "add": "^2.0.6",
@@ -82,6 +71,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-is": "18.2.0",
+    "rimraf": "^4.4.0",
     "styled-components": "^5.3.6",
     "stylelint": "^14.9.1",
     "stylelint-config-css-modules": "^4.1.0",

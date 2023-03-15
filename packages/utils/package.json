@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@wxshylion/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@wxshylion/utils",
   "module": "es/index.js",
   "main": "lib/index.js",
@@ -22,10 +22,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.1"
-  },
+  "dependencies": {},
   "browserslist": [
     "last 2 versions",
     "Firefox ESR",
