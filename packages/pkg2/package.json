@@ -13,7 +13,6 @@
   "scripts": {
     "build": "father build"
   },
-  "type": "module",
   "author": "wangxiaoshylion@gmail.com",
   "license": "ISC",
   "dependencies": {},
