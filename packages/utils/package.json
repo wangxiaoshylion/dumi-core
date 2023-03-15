@@ -1,7 +1,8 @@
 {
-  "name": "@wxshycat/utils",
-  "version": "1.0.0",
-  "description": "@wxshycat/utils",
+  "name": "@firesoon/wx",
+  "version": "1.0.2",
+  "description": "",
+  "type": "module",
   "module": "es/index.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,7 +21,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.21.3"
+  },
   "browserslist": [
     "last 2 versions",
     "Firefox ESR",
