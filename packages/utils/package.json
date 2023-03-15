@@ -1,14 +1,12 @@
 {
-  "private": true,
-  "name": "@wxshylion/utils",
-  "version": "1.0.3",
-  "description": "@wxshylion/utils",
+  "name": "@firesson/test_wx",
+  "version": "1.0.1",
+  "description": "@firesson/test_wx",
   "module": "es/index.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib",
-    "dist",
     "es"
   ],
   "scripts": {

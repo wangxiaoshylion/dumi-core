@@ -1,5 +1,17 @@
 # @wxshylion/utils
 
+## 1.0.1
+
+### Patch Changes
+
+- 测试发布
+
+## 1.0.4
+
+### Patch Changes
+
+- 测试
+
 ## 1.0.3
 
 ### Patch Changes
