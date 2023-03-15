@@ -1,7 +1,7 @@
 {
-  "name": "@wxshycat/wx",
+  "name": "@wxshycat/utils",
   "version": "1.0.0",
-  "description": "@wxshycat/wx",
+  "description": "@wxshycat/utils",
   "module": "es/index.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
